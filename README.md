@@ -2,7 +2,7 @@
 This app as its name implies is a place to store sensitive information such as bank accounts, credit cards, personal documents, etc., on android devices.
 
 ## Security
-The Realm database used in this project encrypts its data with 256-bit AES. The encryption method consists of generating a strong key from a ten characters password provided by the user. The key is securely stored on the device using RNSecureKeyStore https://github.com/pradeep1991singh/react-native-secure-key-store.
+The Realm database used in this project encrypts its data with 256-bit AES. A 512-bit encryption key is generated from a ten characters password provided by the user. This key is securely stored on the device using RNSecureKeyStore https://github.com/pradeep1991singh/react-native-secure-key-store.
 
 ## Screenshots
 <p align="center">
