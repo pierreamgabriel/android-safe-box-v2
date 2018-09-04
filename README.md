@@ -10,6 +10,6 @@ The Realm database used in this project encrypts its data with 256-bit AES. A 51
 <img src="https://raw.githubusercontent.com/pierremacedo/android-safe-box-v2/master/screenshots/registerscreen.png" height="350" title="register screen">
 <img src="https://raw.githubusercontent.com/pierremacedo/android-safe-box-v2/master/screenshots/loginscreen.png" height="350" title="login screen">  
 <img src="https://raw.githubusercontent.com/pierremacedo/android-safe-box-v2/master/screenshots/mainscreen.png" height="350" title="main screen">  
-<img src="https://raw.githubusercontent.com/pierremacedo/android-safe-box-v2/master/screenshots/creditcards.png" height="350" title="main screen">    
+<img src="https://raw.githubusercontent.com/pierremacedo/android-safe-box-v2/master/screenshots/creditcards.png" height="350" title="credit cards">    
 </p>
 
