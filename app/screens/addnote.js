@@ -104,7 +104,6 @@ export default AddNote;
 
 const styles = StyleSheet.create({ 
 textField: {
- borderColor: '#26abe2',
  borderRadius: 10,    
  paddingLeft: 5,
  paddingRight: 5, 

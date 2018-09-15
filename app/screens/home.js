@@ -4,7 +4,6 @@ import { AsyncStorage, StyleSheet, View, Image, TouchableOpacity, ScrollView, To
 import Icon from 'react-native-vector-icons/FontAwesome';
 import RNSecureKeyStore from 'react-native-secure-key-store';
 const base64js = require('base64-js');
-import Schema from '../schemas.js';
 
 class Home extends Component {
     constructor(props) {
@@ -17,7 +16,7 @@ class Home extends Component {
     title: 'Android Safe Box',
     headerStyle: { paddingLeft: 14, paddingRight: 14},
     headerTitleStyle: { color: '#26abe2', marginLeft: 0, fontSize: 22, fontWeight: 'normal'},  
-    headerRight: (<Icon onPress={navigation.getParam('signOut')} name="sign-out" size={22} fontWeight="normal" color="#26abe2" />),     
+    headerRight: (<Icon onPress={navigation.getParam('signOut')} name="power-off" size={22} fontWeight="normal" color="#26abe2" />),     
   }
    };
 componentDidMount() {
@@ -51,7 +50,7 @@ this.props.navigation.dispatch(resetAction);
 signOut() {
 Alert.alert(
   '',
-  'If you sign out you will have to type your password again in order to access your data. Do you want to continue?',
+  'If you log out you will have to type your password again in order to access your data. Do you want to continue?',
   [
     {text: 'NO', onPress: () => console.log('Cancel Pressed')},
     {text: 'YES', onPress: () => this.changeAsync()},  

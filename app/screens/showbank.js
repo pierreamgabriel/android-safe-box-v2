@@ -135,7 +135,6 @@ export default ShowBank;
 
 const styles = StyleSheet.create({ 
 textField: {
- borderColor: '#26abe2',
  borderRadius: 10,    
  width: '80%',       
   },

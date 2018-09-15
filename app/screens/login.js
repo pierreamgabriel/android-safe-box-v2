@@ -5,7 +5,6 @@ const CryptoJS = require("crypto-js");
 const base64js = require('base64-js');
 import RNSecureKeyStore from 'react-native-secure-key-store';
 const Realm = require('realm');
-import Schema from '../schemas.js';
 
 
 class Login extends Component {
@@ -49,10 +48,10 @@ this.props.navigation.dispatch(resetAction);   });
         backgroundColor: '#26abe2',
       }}>
         <Image style={{width: 50, height: 50, marginBottom: 10}} source={require('../images/icon.png')} /> 
-        <Text style={styles.loginTitle}>Login to your safe box</Text>
+        <Text style={styles.loginTitle}>Log in to your safe box</Text>
         <TextInput placeholder="Password" underlineColorAndroid="transparent" style={styles.textField} secureTextEntry={true} onChangeText={(key) => this.setState({key})} value={this.state.key} />
         <TouchableOpacity style={styles.button} onPress={this.openDb}>
-    <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 18, textAlign: 'center', marginTop: 7 }}>LOGIN</Text>
+    <Text style={{ color: 'white', fontWeight: 'bold', fontSize: 18, textAlign: 'center', marginTop: 7 }}>LOG IN</Text>
 </TouchableOpacity>    
       </View>
     );
