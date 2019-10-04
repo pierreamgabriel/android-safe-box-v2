@@ -27,7 +27,7 @@ Realm is notably faster than SQLite and also easier to use. In fact, I think thi
 ### Conclusion
 React Native certainly allows us to create apps with a smoother navigation which is something really crucial where NativeScript fails. Also, at the moment I created this project, the only suitable database with encryption capability available for NativeScript was SQLcipher, and it's an important downside since Realm is a faster option.
 
-NativeScript comes with Webpack that promises to speed up our apps, but this a buggy tool. I couldn't make it work. The time you'll waste fixing Webpack errors, you could be already building a faster app with React Native.
+NativeScript comes with Webpack that promises to speed up our apps, but this is a buggy tool. I couldn't make it work. The time you'll waste fixing Webpack errors, you could be already building a faster app with React Native.
 
 ## Screenshots
 <p align="center">
