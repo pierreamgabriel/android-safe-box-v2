@@ -1,7 +1,7 @@
 # Android Safe Box
-A personal project to compare the performances of two app development frameworks on android. This app was built with React Native + Realm and will be compared against this one https://github.com/pierremacedo/android-safe-box-v1 built with NativeScript + SQLcipher.
+A personal project to compare the performances of two app development frameworks on Android. This app was built with React Native + Realm and will be compared against this one https://github.com/pierremacedo/android-safe-box-v1 built with NativeScript + SQLcipher.
 
-This app as its name implies is a place to store sensitive information such as bank accounts, credit cards, personal documents, etc., on android devices.
+This app as its name implies is a place to store sensitive information such as bank accounts, credit cards, personal documents, etc., on Android devices.
 
 ## Download
 
