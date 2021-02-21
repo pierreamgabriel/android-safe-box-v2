@@ -1,3 +1,4 @@
+All rights reserved. I released an improved and commercial version of this app. You can still read the code in this repository, but you cannot use it. 
 # Android Safe Box
 It's a personal project to compare the performance of two mobile app development frameworks. This app was built with React Native + Realm and will be compared against this one https://github.com/pierremacedo/android-safe-box-v1 built with NativeScript + SQLcipher.
 
